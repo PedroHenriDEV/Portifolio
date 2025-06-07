@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu portfólio</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/estilo.css" type="text/css">
+   <link rel="icon" href="imagens/a19fb0ae-394a-4721-b720-475b4ce22f18.png" type="image/png" />
+
+</head>
+
+<body>
+  <!-- Animated Background -->
+  <div class="animated-bg"></div>
+  <div class="matrix" id="matrix"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home">&lt;/Dev&gt;</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#technologies">Tecnologias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <div class="hero-content">
+            <h1 class="fade-in">Front-end Developer</h1>
+            <p class="fade-in">Criando experiências digitais <span class="typing-effect" id="typed-text"></span></p>
+            <div class="fade-in">
+              <a href="#projects" class="btn btn-primary-custom me-3">
+                <i class="fas fa-code"></i> Ver Projetos
+              </a>
+              <a href="#contact" class="btn btn-outline-custom me-3">
+                <i class="fas fa-envelope"></i> Contato
+              </a>
+              <a href="docs/Pedro Henrique Silva.pdf" class="btn btn-outline-custom" download>
+  <i class="fas fa-file-alt"></i> Baixar CV
+</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="text-center fade-in">
+            <div class="hero-avatar">
+              <i class="fas fa-user-astronaut" style="font-size: 10rem; color: var(--primary-blue);"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="section-title">Sobre Mim</h2>
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <div class="card-custom fade-in">
+            <p class="lead">
+              Olá! Meu nome é Pedro Henrique e sou um desenvolvedor web apaixonado por criar experiências digitais que
+              fazem
+              a diferença. Atualmente estou focado no desenvolvimento front-end, com conhecimentos em HTML, CSS,
+              JavaScript e Bootstrap, sempre buscando aprender e evoluir com cada projeto. <br><br>
+
+              Tenho trabalhado em sites institucionais, páginas responsivas e interfaces interativas, aplicando boas
+              práticas de design e usabilidade. Um dos projetos que mais me orgulho é o site da igreja MIRE, onde pude
+              colocar em prática animações, carrosséis, formulários e calendários personalizados.<br><br>
+
+              Sou curioso por natureza, gosto de explorar novas tecnologias e estou sempre estudando para ampliar minhas
+              habilidades — tanto no design quanto na lógica da programação.<br><br>
+
+              Se você procura alguém comprometido, que aprende rápido e adora transformar ideias em soluções visuais,
+              vamos conversar!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technologies Section -->
+  <section id="technologies" class="py-5">
+    <div class="container">
+      <h2 class="section-title">Tecnologias</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card-custom text-center fade-in">
+            <i class="fab fa-react tech-icon"></i>
+            <h4>React</h4>
+            <p>Desenvolvimento de SPAs modernas com hooks e context API</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card-custom text-center fade-in">
+            <i class="fab fa-js-square tech-icon"></i>
+            <h4>JavaScript</h4>
+            <p>ES6+, TypeScript, programação funcional e orientada a objetos</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card-custom text-center fade-in">
+            <i class="fab fa-css3-alt tech-icon"></i>
+            <h4>CSS3</h4>
+            <p>Flexbox, Grid, animações e preprocessadores como Sass</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card-custom text-center fade-in">
+            <i class="fab fa-node-js tech-icon"></i>
+            <h4>Node.js</h4>
+            <p>APIs REST, Express.js e integração com bancos de dados</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card-custom text-center fade-in">
+            <i class="fab fa-git-alt tech-icon"></i>
+            <h4>Git</h4>
+            <p>Controle de versão, GitHub, GitLab e metodologias ágeis</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card-custom text-center fade-in">
+            <i class="fas fa-mobile-alt tech-icon"></i>
+            <h4>Responsive</h4>
+            <p>Design responsivo, mobile-first e acessibilidade</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="section-title">Projetos</h2>
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <div class="project-card fade-in">
+            <div class="project-img">
+              <img src="imagens/Captura de tela 2025-05-18 154221.png" alt="E-commerce" class="img-thumbnail"
+                style="width: 400px; height: auto;">
+            </div>
+            <div class="p-4">
+              <h4>E-commerce </h4>
+              <p>Este projeto é uma plataforma completa de e-commerce, desenvolvida com foco em performance, usabilidade
+                e controle total da operação. A aplicação permite que usuários explorem produtos, adicionem itens ao
+                carrinho, finalizem pedidos e acompanhem suas compras, enquanto os administradores gerenciam toda a
+                estrutura por meio de um painel de controle (dashboard) intuitivo.</p>
+              <div class="mb-3">
+                <span class="badge bg-primary me-2">Bootstrap</span>
+                <span class="badge bg-primary me-2">HTML</span>
+                <span class="badge bg-primary">CSS</span>
+                <span class="badge bg-primary">JavaScript</span>
+              </div>
+              <a href="https://github.com/PedroHenriDEV/Comercio-Local" class="btn btn-outline-custom btn-sm"
+                target="_blank">
+                <i class="fab fa-github"></i> Ver Código
+              </a>
+              <a href="https://pedrohenridev.github.io/Comercio-Local/" class="btn btn-outline-custom btn-sm"
+                target="_blank">
+                <i class="fas fa-link"></i> Site
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="project-card fade-in">
+            <div class="project-img">
+              <img src="imagens/Captura de tela 2025-06-07 181548.png" alt="E-commerce" class="img-thumbnail"
+                style="width: 400px; height: auto;">
+            </div>
+            <div class="p-4">
+              <h4>Site Institucional (Em execução)</h4>
+              <p>Este projeto é um dashboard moderno e responsivo desenvolvido para uso interno. Ele permite a
+                visualização de dados em tempo real, como número de membros, eventos realizados, crescimento semanal e
+                outros indicadores essenciais. Com gráficos dinâmicos e métricas
+                personalizadas, o painel oferece uma visão clara e acessível para todos os membros.</p>
+              <div class="mb-3">
+                <span class="badge bg-primary me-2">Bootstrap</span>
+                <span class="badge bg-primary me-2">HTML</span>
+                <span class="badge bg-primary">CSS</span>
+                <span class="badge bg-primary">JavaScript</span>
+              </div>
+              <a href="https://github.com/PedroHenriDEV/Igreja" class="btn btn-outline-custom btn-sm" target="_blank">
+                <i class="fab fa-github"></i> Ver Código
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="section-title">Contato</h2>
+      <div class="row">
+        <div class="col-lg-6 mb-4">
+          <div class="contact-info fade-in">
+            <h4 class="mb-4">Vamos conversar!</h4>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=pedrohenrique.silvapereira12@gmail.com&su=Contato%20via%20Portfólio&body=Olá%20Pedro,%0D%0AGostei%20do%20seu%20portfólio%20e%20gostaria%20de%20entrar%20em%20contato%20com%20você."
+                class="btn btn-outline-custom me-3" target="_blank" rel="noopener noreferrer">
+                Email
+              </a>
+
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-linkedin"></i>
+              <a href="https://www.linkedin.com/in/pedro-henrique-souzadev/" class="btn btn-outline-custom me-3"
+                target="_blank">
+                LinkedIn
+              </a>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-github"></i>
+              <a href="https://github.com/PedroHenriDEV" class="btn btn-outline-custom me-3" target="_blank">
+                GitHub
+              </a>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-whatsapp"></i>
+              <a href="https://wa.me/553197119388" class="btn btn-outline-custom me-3" target="_blank">
+                Whatsapp
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card-custom fade-in">
+            <h4 class="mb-4">Envie uma mensagem</h4>
+            <form id="whatsappForm">
+              <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Seu nome" id="nome" required>
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control" rows="5" placeholder="Sua mensagem" id="mensagem" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary-custom w-100">
+                <i class="fab fa-whatsapp"></i> Enviar para WhatsApp
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p>&copy; 2025 Frontend Developer. Todos os direitos reservados.</p>
+        </div>
+        <div class="col-md-6 text-end">
+          <p>Criado com <i class="fas fa-code" style="color: var(--primary-blue);"></i> e muita inovação</p>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+  <script src="index.js"></script>
+
+</body>
+
+</html>
